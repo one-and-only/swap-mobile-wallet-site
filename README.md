@@ -1,0 +1,1 @@
+Website for the Swap Mobile Wallet. You can find information and get support via email here.
