@@ -41,6 +41,7 @@ export default function Header({ title, url = process.env.METADATA_BASE_URL }) {
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="description" content="Quickly and privately send $XWP with the Swap Mobile Wallet from the convencience of your phone." />
 
         {/* Open Graph (Facebook) */}
         <meta property="og:title" content={title} />
@@ -53,7 +54,7 @@ export default function Header({ title, url = process.env.METADATA_BASE_URL }) {
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@notRevvz" />
-        <meta name="twitter:description" content="Quickly and privately send $XWP with the Swap Mobile Wallet" />
+        <meta name="twitter:description" content="Quickly and privately send $XWP with the Swap Mobile Wallet from the convencience of your phone." />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:image" content="/icons/android-chrome-512x512.png" />
         <meta name="twitter:image:alt" content="Swap ($XWP) Icon Logo" />
