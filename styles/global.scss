@@ -32,11 +32,11 @@ $theme-colors: (
   color: white;
 }
 .nav-link {
-  color: #a3acde !important;
+  color: rgba(165, 97, 229, 1) !important;
   font-size: 24px;
 }
 .nav-link:hover {
-  filter: saturate(2);
+  color: white!important;
 }
 .form-text {
   color: #a3acde !important;
@@ -63,4 +63,23 @@ a:hover {
   width: 75%;
   margin: auto;
   padding: 10px;
+}
+#app-demo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+#demo-text {
+  float: right;
+  padding-left: 4%;
+}
+#promo-text {
+  font-size: 47px;
+  padding-bottom: 5%;
+  color: white;
+}
+#promo-description {
+  font-size: 22px;
+  padding-bottom: 2%;
 }
