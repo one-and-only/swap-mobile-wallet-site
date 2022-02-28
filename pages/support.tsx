@@ -45,7 +45,7 @@ export default function Support(): JSX.Element {
 
   return (
     <div>
-      <Header title="Support | Swap Mobile Wallet" />
+      <Header title="Support | Swap Mobile Wallet" url={process.env.METADATA_BASE_URL + "support"} />
       <h1 className="center-text">Email Support</h1>
       <Form id="support-form">
         <Form.Group className="mb-3" controlId="to">
