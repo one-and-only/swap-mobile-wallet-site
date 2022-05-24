@@ -31,7 +31,7 @@ export default function Home({ redirectReason }): JSX.Element {
             Quickly and privately manage and transfer $XWP from the convenience
             of your phone
           </h3>
-          <Link href="https://testflight.apple.com/join/veCyui9K">
+          <Link href="https://apps.apple.com/us/app/swap-mobile-wallet/id1624370757">
             <a target="_blank">
               <Image
                 src={appStoreDownload}
