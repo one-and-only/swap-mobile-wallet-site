@@ -1,46 +1,42 @@
-$theme-colors: (
-  "primary": rgba(165, 97, 229, 1),
-  "danger": tomato,
-);
-@import "~bootstrap/scss/bootstrap";
-
 .gradient-icon {
-  background: linear-gradient(
-    45deg,
-    rgba(165, 97, 229, 1) 0%,
-    rgba(103, 122, 243, 1) 50%,
-    rgba(126, 222, 238, 1) 100%
-  );
+  background: linear-gradient(45deg,
+      rgba(165, 97, 229, 1) 0%,
+      rgba(103, 122, 243, 1) 50%,
+      rgba(126, 222, 238, 1) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: initial;
 }
+
 .btn-primary {
   color: white;
-  background-image: linear-gradient(
-    45deg,
-    rgba(165, 97, 229, 1) 0%,
-    rgba(103, 122, 243, 1) 50%,
-    rgba(126, 222, 238, 1) 100%
-  );
+  background-image: linear-gradient(45deg,
+      rgba(165, 97, 229, 1) 0%,
+      rgba(103, 122, 243, 1) 50%,
+      rgba(126, 222, 238, 1) 100%);
   transition: 500ms linear;
   outline-color: transparent;
 }
+
 .btn-primary:hover {
   transition: 500ms linear;
   filter: saturate(2);
   color: white;
 }
+
 .nav-link {
   color: rgba(165, 97, 229, 1) !important;
   font-size: 24px;
 }
+
 .nav-link:hover {
-  color: white!important;
+  color: white !important;
 }
+
 .form-text {
   color: #a3acde !important;
 }
+
 .center-text {
   text-align: center;
 }
@@ -51,10 +47,12 @@ body {
   color: #a3acde;
   font-size: 18px;
 }
+
 a {
   text-decoration: none;
   color: rgba(165, 97, 229, 1);
 }
+
 a:hover {
   color: white;
 }
@@ -64,21 +62,29 @@ a:hover {
   margin: auto;
   padding: 10px;
 }
+
 #app-demo {
   display: flex;
   align-items: center;
   text-align: center;
   padding: 15px;
 }
+
 #demo-text {
   float: right;
   padding-left: 4%;
 }
+
 #promo-text {
+  font-family: Helvetica;
   font-size: 47px;
-  padding-bottom: 5%;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 51.7px;
   color: white;
 }
+
 #promo-description {
   font-size: 22px;
   padding-bottom: 2%;

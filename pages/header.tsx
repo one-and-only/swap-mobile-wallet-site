@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import favicon from "../public/icons/android-chrome-192x192.png";
 
 export default function Header({ title, url = process.env.METADATA_BASE_URL }) {
   return (
@@ -59,20 +56,6 @@ export default function Header({ title, url = process.env.METADATA_BASE_URL }) {
         <meta name="twitter:image" content="/icons/android-chrome-512x512.png" />
         <meta name="twitter:image:alt" content="Swap ($XWP) Icon Logo" />
       </Head>
-      <Navbar bg="dark" variant="dark" expand="sm">
-        <Container>
-          <Navbar.Brand href="/">
-            <Image src={favicon} alt="Brand Image" width={50} height={50} />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/support">Email Support</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
     </>
   );
 }
