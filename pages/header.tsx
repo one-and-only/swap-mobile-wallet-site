@@ -57,7 +57,7 @@ export default function Header({ title, url = process.env.METADATA_BASE_URL }) {
         <meta name="twitter:image:alt" content="Swap ($XWP) Icon Logo" />
 
         {/* WebSite Structured Datda */}
-        <script type="application/ld+json" src="/website-structured-data.json">
+        <script type="application/ld+json" src="/website-structured-data.json" async>
         </script>
       </Head>
     </>
