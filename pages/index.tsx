@@ -2,7 +2,6 @@ import Header from "./header";
 import Image from "next/image";
 import phoneImage from "../public/images/phone.webp";
 import appStoreDownload from "../public/images/download_on_the_app_store.webp";
-import Link from "next/link";
 
 /*const swapGradient: {from: string, to: string, deg: number} = {
   from: "#a760f8",
@@ -31,8 +30,7 @@ export default function Home({ redirectReason }): JSX.Element {
             Quickly and privately manage and transfer $XWP from the convenience
             of your phone
           </h3>
-          <Link href="https://apps.apple.com/us/app/swap-mobile-wallet/id1624370757">
-            <a target="_blank">
+            <a target="_blank" href="https://apps.apple.com/us/app/swap-mobile-wallet/id1624370757">
               <Image
                 src={appStoreDownload}
                 alt="Download on the App Store"
@@ -40,7 +38,6 @@ export default function Home({ redirectReason }): JSX.Element {
                 height={100}
               />
             </a>
-          </Link>
         </div>
       </div>
     </div>
