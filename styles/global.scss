@@ -4,16 +4,33 @@ body {
   font-size: 18px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: min(repeat(auto-fill, 220px), 2);
+  grid-template-rows: auto auto;
+  min-height: 100%;
+  gap: 1em;
+}
+
+.flex-container {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  flex-grow: 1;
+}
+
 #app-demo {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 15px;
+  padding-left: 15px;
 }
 
 #demo-text {
   float: right;
   margin-left: 8vw;
+  min-width: 200px;
 }
 
 #promo-text {
@@ -29,4 +46,13 @@ body {
 #promo-description {
   font-size: 22px;
   padding-bottom: 2.5vh;
+}
+
+#demo-image {
+  $height: 80vh;
+  $og_image_width: 1427;
+  $og_image_height: 2902;
+
+  height: $height;
+  width: calc($height * ($og_image_width / $og_image_height));
 }
