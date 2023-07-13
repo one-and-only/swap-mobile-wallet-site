@@ -3,12 +3,6 @@ import Image from "next/image";
 import phoneImage from "../public/images/phone.webp";
 import appStoreDownload from "../public/images/download_on_the_app_store.webp";
 
-/*const swapGradient: {from: string, to: string, deg: number} = {
-  from: "#a760f8",
-  to: "#21b8f4",
-  deg: 45
-};*/
-
 export default function Home({ redirectReason }): JSX.Element {
   return (
     <div>
