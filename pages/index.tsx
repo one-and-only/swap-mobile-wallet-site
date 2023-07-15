@@ -67,8 +67,6 @@ export default function Home(): JSX.Element {
       <div id="app-demo" className="flex-container">
         <Image
           src={phoneImage}
-          width={350}
-          height={711}
           alt="Phone Demo Image"
           id="demo-image"
         />
