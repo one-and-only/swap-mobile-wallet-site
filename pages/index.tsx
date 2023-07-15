@@ -45,6 +45,7 @@ export default function Home(): JSX.Element {
 
         {/* Open Graph (Facebook) */}
         <meta property="og:title" content="Swap Mobile Wallet" />
+        <meta property="og:description" content="Quickly and privately send $XWP with the Swap Mobile Wallet from the convencience of your phone." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/icons/android-chrome-512x512.png" />
         <meta property="og:url" content="https://mobile.getswap.eu" />
